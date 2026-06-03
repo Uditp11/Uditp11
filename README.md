@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Uditp11
 - 👀 I’m interested in AI and Data Science
-- 🌱 I’m currently learning Web development
+- 🌱 I’m currently learning AI Engineering, Data manupulation
 - 💞️ I’m looking to collaborate on Artificial Intelligence and Data Science
 - 📫 How to reach me - Udit Parihar(LinkedIn) - https://www.linkedin.com/in/udit-parihar-518186191/
 
