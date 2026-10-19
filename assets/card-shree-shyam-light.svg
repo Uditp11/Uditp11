@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="206" viewBox="0 0 400 206" role="img" aria-labelledby="t">
+<title id="t">Shree_Shyam_Constructions: Live, site for a paying client. Website in English and Hindi. Next.js, TypeScript, Tailwind CSS.</title>
+<style>
+.repo { font: 600 14px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e; }
+.big { font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #8250df; }
+.label { font: 400 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #1f2328; }
+.body { font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #1f2328; }
+.src { font: 400 10.5px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e; }
+.pill { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+</style>
+<rect x="0.75" y="0.75" width="398.5" height="204.5" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="repo" x="20" y="34">Shree_Shyam_Constructions</text><rect x="341" y="18" width="43" height="22" rx="11" fill="#ddf4ff"/><text x="363" y="33" text-anchor="middle" class="pill" fill="#0969da">live</text>
+<text class="big" x="20" y="76">Live</text>
+<text class="label" x="20" y="100">site for a paying client</text>
+<text class="body" x="20" y="127">Website in English and Hindi.</text><text class="body" x="20" y="146">Next.js, TypeScript, Tailwind CSS.</text>
+<text class="src" x="20" y="192">shree-shyam-constructions.vercel.app</text>
+</svg>

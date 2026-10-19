@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" role="img" aria-labelledby="t d">
+<title id="t">Udit Parihar</title>
+<desc id="d">I build machine learning models I can measure, and the APIs, web apps and tests around them. Frankfurt am Main. M.Sc. Global Software Development, Hochschule Fulda. Open to roles in ML and AI engineering, Java and Python backend, full-stack, QA and test automation, data and automation.</desc>
+<style>
+.name { font: 700 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+.pitch { font: 400 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+.meta { font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #9198a1; }
+.cap { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9198a1; letter-spacing: 1.5px; }
+.lane, .lane-static { font: 700 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #ab7df8; }
+.lane { opacity: 0; animation: show 13.0s infinite; }
+.lane-static { opacity: 0; font-size: 15px; }
+@keyframes show { 0% { opacity: 0; transform: translateY(6px); } 4% { opacity: 1; transform: none; } 17% { opacity: 1; } 20% { opacity: 0; } 100% { opacity: 0; } }
+.net line { stroke: #3d444d; stroke-width: 1.5; }
+.net circle { fill: #ab7df8; }
+.wire { stroke: #3d444d; stroke-width: 2; stroke-dasharray: 4 5; fill: none; }
+.box { fill: #151b23; stroke: #3d444d; stroke-width: 1.5; }
+.brace { font: 700 22px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #f0f6fc; }
+.ok { fill: #3fb950; }
+.tick { stroke: #ffffff; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.lbl { font: 400 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9198a1; }
+.pulse { fill: #ab7df8; offset-path: path("M646 108 L780 108"); animation: run 3.2s ease-in-out infinite; }
+@keyframes run { 0% { offset-distance: 0%; opacity: 0; } 10% { opacity: 1; } 85% { opacity: 1; } 100% { offset-distance: 100%; opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } .lane { opacity: 0 !important; } .lane-static { opacity: 1 !important; } }
+</style>
+<text class="name" x="40" y="62">Udit Parihar</text>
+<text class="pitch" x="40" y="98">I build machine learning models I can measure,</text>
+<text class="pitch" x="40" y="124">and the APIs, web apps and tests around them.</text>
+<text class="meta" x="40" y="156">Frankfurt am Main  ·  M.Sc. Global Software Development, Hochschule Fulda</text>
+<text class="cap" x="40" y="188">OPEN TO ROLES IN</text>
+<text class="lane anim" x="40" y="214" style="animation-delay:0.0s">ML and AI engineering</text><text class="lane anim" x="40" y="214" style="animation-delay:2.6s">Java and Python backend</text><text class="lane anim" x="40" y="214" style="animation-delay:5.2s">full-stack</text><text class="lane anim" x="40" y="214" style="animation-delay:7.8s">QA and test automation</text><text class="lane anim" x="40" y="214" style="animation-delay:10.4s">data and automation</text>
+<text class="lane-static" x="40" y="212">ML and AI · Java and Python backend · full-stack · QA · data and automation</text>
+<g class="net"><line x1="590" y1="78" x2="640" y2="93"/><line x1="590" y1="78" x2="640" y2="123"/><line x1="590" y1="108" x2="640" y2="93"/><line x1="590" y1="108" x2="640" y2="123"/><line x1="590" y1="138" x2="640" y2="93"/><line x1="590" y1="138" x2="640" y2="123"/><circle cx="590" cy="78" r="6"/><circle cx="590" cy="108" r="6"/><circle cx="590" cy="138" r="6"/><circle cx="640" cy="93" r="6"/><circle cx="640" cy="123" r="6"/></g>
+<path class="wire" d="M646 108 L690 108 M750 108 L784 108"/>
+<rect class="box" x="690" y="88" width="60" height="40" rx="8"/>
+<text class="brace" x="720" y="116" text-anchor="middle">{ }</text>
+<circle class="ok" cx="798" cy="108" r="15"/>
+<path class="tick" d="M791 108 l5 5 l9 -10"/>
+<circle class="pulse anim" r="4"/>
+<text class="lbl" x="615" y="172" text-anchor="middle">model</text>
+<text class="lbl" x="720" y="172" text-anchor="middle">API</text>
+<text class="lbl" x="798" y="172" text-anchor="middle">tests</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="206" viewBox="0 0 400 206" role="img" aria-labelledby="t">
+<title id="t">solar-inspect: 4.9 pts, leakage, measured. Thermal solar panel defects. Removing near-duplicate train images drops leaky-subset accuracy 4.9 points; a random control: 0.0000. Classification module done.</title>
+<style>
+.repo { font: 600 14px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9198a1; }
+.big { font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #ab7df8; }
+.label { font: 400 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+.body { font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+.src { font: 400 10.5px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9198a1; }
+.pill { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+</style>
+<rect x="0.75" y="0.75" width="398.5" height="204.5" rx="12" fill="#151b23" stroke="#3d444d" stroke-width="1.5"/>
+<text class="repo" x="20" y="34">solar-inspect</text><rect x="291" y="18" width="93" height="22" rx="11" fill="#2e2208"/><text x="337" y="33" text-anchor="middle" class="pill" fill="#d29922">in progress</text>
+<text class="big" x="20" y="76">4.9 pts</text>
+<text class="label" x="20" y="100">leakage, measured</text>
+<text class="body" x="20" y="127">Thermal solar panel defects. Removing near-duplicate</text><text class="body" x="20" y="146">train images drops leaky-subset accuracy 4.9 points;</text><text class="body" x="20" y="165">a random control: 0.0000. Classification module done.</text>
+<text class="src" x="20" y="192">docs/adr/0004 · README status</text>
+</svg>
