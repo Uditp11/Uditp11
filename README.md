@@ -11,7 +11,7 @@
   <a href="https://github.com/Uditp11/cifar10-from-scratch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-cifar10-dark.svg"><img src="assets/card-cifar10-light.svg" width="400" alt="cifar10-from-scratch: 96.06% test top-1, evaluated once. ResNet-18 written from scratch in PyTorch. 10,000 held-out images. Every recipe choice tested in a logged ablation."></picture></a>
   <a href="https://github.com/Uditp11/applytrack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-applytrack-dark.svg"><img src="assets/card-applytrack-light.svg" width="400" alt="applytrack: 86 tests, 0 skipped in CI. Java and Spring Boot API. A status state machine refuses illegal moves. Kubernetes deploy in CI, Terraform deploy to Azure."></picture></a>
   <a href="https://github.com/Uditp11/vectordb-from-scratch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-vectordb-dark.svg"><img src="assets/card-vectordb-light.svg" width="400" alt="vectordb-from-scratch: 3 search algorithms, by hand. HNSW, KD-Tree and brute force in Python and NumPy. Tests prove KD-Tree matches brute force exactly. Recall and latency benchmarked, local RAG."></picture></a>
-  <a href="https://github.com/Uditp11/solar-inspect"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-solar-inspect-dark.svg"><img src="assets/card-solar-inspect-light.svg" width="400" alt="solar-inspect, in progress: leakage measured. Removing near-duplicate train images drops leaky-subset accuracy 4.9 points; a random control: 0.0000. Classification module done."></picture></a>
+  <a href="https://github.com/Uditp11/solar-inspect"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-solar-inspect-dark.svg"><img src="assets/card-solar-inspect-light.svg" width="400" alt="solar-inspect, v1.0: 5 modules, each test split read once. Solar panel inspection in PyTorch: U-Net from scratch, YOLOv8 detection, Kalman and SORT, defect classifier, plant analytics with SQL."></picture></a>
   <a href="https://github.com/Uditp11/shift-log"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shift-log-dark.svg"><img src="assets/card-shift-log-light.svg" width="400" alt="shift-log, live: end-to-end tested in 2 browsers. Offline-first phone app my friends and I use. Playwright in WebKit and Chromium, one branch per task, tests run before every deploy."></picture></a>
   <a href="https://github.com/Uditp11/Shree_Shyam_Constructions"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shree-shyam-dark.svg"><img src="assets/card-shree-shyam-light.svg" width="400" alt="Shree_Shyam_Constructions, live: website for a paying client, in English and Hindi. Next.js, TypeScript, Tailwind CSS."></picture></a>
 </p>
@@ -27,7 +27,7 @@ Tests run on every push:
 <details>
 <summary><b>ML and AI engineering</b></summary>
 
-- [solar-inspect](https://github.com/Uditp11/solar-inspect): near-duplicate leakage measured against a random control, model calibrated, test set evaluated once. Open [ADR 0004](https://github.com/Uditp11/solar-inspect/blob/main/docs/adr/0004-d1-near-duplicate-leakage-is-bounded-not-removed.md). In progress
+- [solar-inspect](https://github.com/Uditp11/solar-inspect): five-stage solar panel inspection in PyTorch. U-Net segmentation written from scratch, YOLOv8 detection with IoU, NMS and AP written by hand, Kalman and SORT tracking checked on synthetic flyovers, defect classification with calibration and distillation, and analytics on real plant data. Each of the three image test splits read once. Open the [headline results](https://github.com/Uditp11/solar-inspect#headline-results)
 - [cifar10-from-scratch](https://github.com/Uditp11/cifar10-from-scratch): ResNet-18 written from scratch, 96.06% test accuracy. Open the [ablation ledger](https://github.com/Uditp11/cifar10-from-scratch/blob/main/docs/EXPERIMENTS.md)
 - [vectordb-from-scratch](https://github.com/Uditp11/vectordb-from-scratch): HNSW and KD-Tree written by hand, local RAG with Ollama. Open the [benchmark](https://github.com/Uditp11/vectordb-from-scratch/blob/main/docs/BENCHMARK.md)
 - [RAG_Adaptive](https://github.com/Uditp11/RAG_Adaptive) (team project): LangGraph chatbot that routes each question to documents, the LLM or web search, then grades and retries retrieval
@@ -58,6 +58,7 @@ Tests run on every push:
 - [shift-log](https://github.com/Uditp11/shift-log): Playwright end-to-end tests in WebKit at iPhone size and Chromium at Android size, run before every deploy. Open [playwright.config.js](https://github.com/Uditp11/shift-log/blob/main/playwright.config.js)
 - [applytrack](https://github.com/Uditp11/applytrack): JUnit 5, Mockito and Testcontainers against a real PostgreSQL
 - [cifar10-from-scratch](https://github.com/Uditp11/cifar10-from-scratch): pytest on a Python 3.10 and 3.12 CI matrix
+- [solar-inspect](https://github.com/Uditp11/solar-inspect): 232 pytest tests, checked against hand-computed values and against torchvision and statsmodels
 - [einkaufzentrum](https://github.com/Uditp11/einkaufzentrum) (team course project): three integration suites, run in CI
 
 </details>
@@ -66,6 +67,7 @@ Tests run on every push:
 <summary><b>Data and automation</b></summary>
 
 - [applytrack](https://github.com/Uditp11/applytrack): response rate and status counts computed in SQL
+- [solar-inspect](https://github.com/Uditp11/solar-inspect): regression on real solar plant data with Newey-West errors, and five SQLite queries with window functions, each checked against pandas. Open [sql/](https://github.com/Uditp11/solar-inspect/tree/main/sql)
 - [einkaufzentrum](https://github.com/Uditp11/einkaufzentrum) (team course project): SQL layer through SQLAlchemy, SQLite and MySQL
 - Automation (n8n, Power Automate, Python and JavaScript scripts) was used at work
 - Private, not public: my own job-hunt agents, built with Claude, collect postings every day, score them and file them in Notion. I also wrote Claude Code skills and my own MCP server
@@ -85,6 +87,7 @@ Every badge below is used in a public repo on this profile.
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-7FC8FF?logo=langchain&logoColor=black)
 
 **Backend and data** &nbsp;
@@ -95,6 +98,7 @@ Every badge below is used in a public repo on this profile.
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 
 **Frontend** &nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -126,8 +130,8 @@ Every badge below is used in a public repo on this profile.
 
 | Area | Built in public (open the repos above) | Used at work (Kidz Brain Academy, 2023 to 2024) | Coursework (graded, M.Sc. and B.Tech) |
 |---|---|---|---|
-| ML and AI | PyTorch, NumPy, model evaluation (ablations, calibration, leakage checks), vector search, LangGraph, LangChain, OpenAI API, Ollama | OpenAI API in internal tools, with output checks | scikit-learn and statistics, PySpark, Hugging Face |
-| Backend and data | Java, Spring Boot, PostgreSQL with Flyway migrations, FastAPI, Flask, SQLAlchemy, REST APIs, JWT | Node.js and Python services, REST APIs, SQL, data cleaning | Thymeleaf, NestJS |
+| ML and AI | PyTorch, NumPy, computer vision (segmentation, detection with YOLOv8, tracking with Kalman and SORT, classification), knowledge distillation, statistics (regression, Newey-West errors, bootstrap intervals), model evaluation (ablations, calibration, leakage checks), vector search, LangGraph, LangChain, OpenAI API, Ollama | OpenAI API in internal tools, with output checks | Classical ML and statistics with scikit-learn, PySpark, Hugging Face |
+| Backend and data | Java, Spring Boot, PostgreSQL with Flyway migrations, SQLite with window functions, pandas, FastAPI, Flask, SQLAlchemy, REST APIs, JWT | Node.js and Python services, REST APIs, SQL, data cleaning | Thymeleaf, NestJS |
 | Frontend | React, Next.js, TypeScript, Tailwind CSS, offline web apps (service worker, IndexedDB) | React | Vue 3, Angular |
 | Testing | pytest, JUnit 5, Mockito, Testcontainers, Playwright | Test cases, manual testing, Postman | Two graded testing courses |
 | Cloud and delivery | Docker, Docker Compose, Kubernetes (kind), Terraform on Azure, GitHub Actions, Prometheus and Grafana | | Jenkins |
